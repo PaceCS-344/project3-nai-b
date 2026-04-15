@@ -1,0 +1,125 @@
+.page-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.page-container h1 {
+    margin-top: 0;
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.page-content {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Skills Page Styles */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.skill-category {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #0066cc;
+}
+
+.skill-category h2 {
+    margin-top: 0;
+    color: #0066cc;
+    font-size: 20px;
+}
+
+.skill-category ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skill-category li {
+    padding: 8px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.skill-category li:last-child {
+    border-bottom: none;
+}
+
+/* Work Experience Styles */
+.experience-list {
+    margin-top: 20px;
+}
+
+.experience-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #0066cc;
+}
+
+.experience-header {
+    margin-bottom: 10px;
+}
+
+.experience-header h2 {
+    margin: 0 0 5px 0;
+    color: #333;
+    font-size: 22px;
+}
+
+.company {
+    margin: 0;
+    color: #0066cc;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.period {
+    margin: 10px 0 10px 0;
+    color: #888;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.description {
+    margin: 10px 0 0 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Projects Container (reuse grid from styles.css) */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    padding: 0;
+    max-width: 100%;
+    margin: 20px 0 0 0;
+}
+
+@media (min-width: 1800px) {
+    .projects-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .projects-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1199px) {
+    .projects-container {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+}
