@@ -1,3 +1,6 @@
+/* Import lightswind styles for InteractiveCard component */
+@import "./lightswind.css";
+
 .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));

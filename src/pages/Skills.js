@@ -1,12 +1,13 @@
 import React from "react";
 import "./pages.css";
+import { InteractiveCard } from "../components/lightswind/interactive-card.tsx";
 
 export default function Skills() {
     const skills = [
-        { category: "Frontend", items: ["React", "JavaScript", "CSS", "HTML"] },
-        { category: "Backend", items: ["Node.js", "Express", "Database Design"] },
-        { category: "Tools", items: ["Git", "VS Code", "npm", "Webpack"] },
-        { category: "Other", items: ["Responsive Design", "UI/UX", "Problem Solving"] }
+        { category: "Software/App Development", items: ["React/React Native", "JavaScript", "CSS", "HTML", "Node.js", "MariaDB"] },
+        { category: "Tools", items: ["Git", "VS Code", "npm"] },
+        { category: "Programming Languages", items: ["Python", "Java", "JavaScript", "HTML", "CSS", "C#", "SQL", "PHP"]},
+        { category: "Other", items: ["Responsive Design", "UI/UX", "Problem Solving", "Docker", "Unity"] }
     ];
 
     return (
@@ -15,6 +16,7 @@ export default function Skills() {
             <div className="page-content">
                 <div className="skills-grid">
                     {skills.map((skillGroup, index) => (
+                        <InteractiveCard>
                         <div key={index} className="skill-category">
                             <h2>{skillGroup.category}</h2>
                             <ul>
@@ -23,6 +25,7 @@ export default function Skills() {
                                 ))}
                             </ul>
                         </div>
+                        </InteractiveCard>
                     ))}
                 </div>
             </div>

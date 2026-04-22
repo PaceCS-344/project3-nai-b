@@ -36,7 +36,7 @@ export default function Footer() {
                         <span className="contact-text">LinkedIn</span>
                     </a>
                 </div>
-                <p className="footer-text">&copy; 2025 Nailah Brown. All rights reserved.</p>
+                <p className="footer-text">&copy; 2026 Nailah Brown. All rights reserved.</p>
             </div>
         </footer>
     );

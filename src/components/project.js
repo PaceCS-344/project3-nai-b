@@ -3,7 +3,7 @@ import "./project.css";
 
 export default function project({name, year, description, image, link}) {
     return (
-        <div className="project-card">
+        <div>
             <a href={link} className="project-name">
                 <h1>{name}</h1>
             </a>
@@ -14,4 +14,3 @@ export default function project({name, year, description, image, link}) {
     );
 }
 
-const styles = StyleSheet.create
