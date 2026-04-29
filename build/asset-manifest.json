@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7457f823.css",
+    "main.js": "/static/js/main.c366f1d1.js",
+    "static/media/nbBaddies.png": "/static/media/nbBaddies.094f2c99a939b1bf01c0.png",
+    "static/media/yourssafety.png": "/static/media/yourssafety.4f256100810ed71e5bc9.png",
+    "static/media/cosmiccoins.png": "/static/media/cosmiccoins.d063bd2f5392241f9fbc.png",
+    "index.html": "/index.html",
+    "main.7457f823.css.map": "/static/css/main.7457f823.css.map",
+    "main.c366f1d1.js.map": "/static/js/main.c366f1d1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7457f823.css",
+    "static/js/main.c366f1d1.js"
+  ]
+}

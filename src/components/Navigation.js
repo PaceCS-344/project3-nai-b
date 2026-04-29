@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./Navigation.css";
 import "./Footer.css";
 import { AuroraTextEffect } from "./lightswind/aurora-text-effect.tsx"
+import SearchBar from "./SearchBar";
 
 export default function Navigation() {
     return (
@@ -19,6 +20,9 @@ export default function Navigation() {
                     }}
                     blurAmount="blur-lg"
                 />
+                
+                <SearchBar />
+                
                 <ul className="nav-links">
                     <li><Link to="/">Projects</Link></li>
                     <li><Link to="/about">About Me</Link></li>
